@@ -1,0 +1,113 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+:root {
+  --main-background-color: #e5e5e5;
+  --darck-background-color: #2f303a;
+  --command-background-color: #f5f4fa;
+  --heading-color: #212121;
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+/* логотип */
+.logo {
+  color: #000000;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.19;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+
+/*Навигация */
+.nav {
+  color: var(--heading-color);
+}
+.nav:hover,
+.nav:focus,
+.nav:active {
+  color: var(--accent-color);
+}
+/* Адрес в навигации */
+.address {
+  color: var(--main-text-color);
+}
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+  text-align: center;
+}
+/* Герой */
+.hero-box {
+  background-color: var(--darck-background-color);
+  color: #ffffff;
+  text-align: center;
+}
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.button {
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* О компании */
+.hide-advantage {
+  font-size: 0;
+}
+.advantage {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--heading-color);
+}
+.advantage-text {
+  line-height: 1.71;
+  color: var(--main-text-color);
+}
+/* Подзаголовки */
+.post-headings {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--heading-color);
+}
+/* Команда */
+.command-box {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.command-name {
+  color: var(--heading-color);
+}
+.command-position {
+  color: var(--main-text-color);
+}
+.footer-box {
+  background-color: var(--darck-background-color);
+}
+.footer-address {
+  line-height: 1.71;
+  color: #ffffff;
+  font-style: normal;
+}
+.footer-contacts {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
