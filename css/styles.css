@@ -21,7 +21,7 @@ a {
 
 address {
   font-family: inherit;
-  text-decoration: none;
+  font-style: normal;
 }
 
 li {
@@ -137,7 +137,10 @@ h2 {
 }
 
 /* Портфолио */
+
+/* Кнопки*/
 .filter {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -152,7 +155,7 @@ h2 {
   color: #ffffff;
 }
 
-/* .product */
+/* Портфолио проектов_Общий класс-product */
 
 .product-title {
   font-weight: 700;
