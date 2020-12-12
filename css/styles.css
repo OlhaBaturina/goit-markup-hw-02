@@ -151,10 +151,19 @@ h2 {
   background-color: var(--accent-color);
   color: #ffffff;
 }
-/*
-.product 
 
-.product-title
+/* .product */
 
-.product-text
-*/
+.product-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--heading-color);
+}
+.product-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-text-color);
+}
